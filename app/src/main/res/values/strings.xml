@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Nexo</string>
+    <string name="permission_required_title">Acesso Total ao Armazenamento</string>
+    <string name="permission_required_desc">O Nexo precisa de permissão para ler e gerenciar todos os arquivos do seu dispositivo para navegar por pastas e abrir seus documentos sem propagandas.</string>
+    <string name="grant_permission">Conceder Permissão</string>
+    <string name="storage_internal">Armazenamento Interno</string>
+    <string name="search_hint">Buscar arquivos e pastas…</string>
+    <string name="empty_folder">Esta pasta está vazia</string>
+    <string name="show_hidden">Mostrar itens ocultos</string>
+    <string name="hide_hidden">Ocultar itens ocultos</string>
+    <string name="sort_by_name">Ordenar por Nome</string>
+    <string name="sort_by_date">Ordenar por Data</string>
+    <string name="sort_by_size">Ordenar por Tamanho</string>
+    <string name="delete">Excluir</string>
+    <string name="rename">Renomear</string>
+    <string name="new_folder">Nova Pasta</string>
+</resources>
