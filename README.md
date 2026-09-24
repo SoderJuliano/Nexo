@@ -2,22 +2,6 @@
 
 Gerenciador de arquivos minimalista, de altíssima performance, com **zero anúncios**, **zero rastreadores** e foco em máxima fluidez (120Hz) para seu **Redmi 15**.
 
----
-
-## ⚡ Por que Kotlin é a melhor escolha? (Comparativo Técnico)
-
-| Tecnologia | Avaliação para este caso | Motivo |
-| :--- | :--- | :--- |
-| **Python** | ❌ Não recomendada | Exige empacotar runtime/interpretador (Kivy, Chaquopy, BeeWare). O APK passa de 40MB a 60MB, tem alto consumo de RAM, boot lento e suporte deficiente para o `Storage Access Framework` do Android. |
-| **Rust / C++** | ⚠️ Complexidade excessiva | Excelente para computação matemática ou CLI, mas em app de interface gráfica Android exige NDK + camadas JNI ou renderizadores customizados, tornando a manutenção complexa e o APK desnecessariamente maior. |
-| **Java** | 🟡 Boa, mas legado | Suportado nativamente, porém mais verboso e sem as otimizações modernas de reatividade (Coroutines / Flow) e concorrência leve do ecossistema moderno. |
-| **Kotlin + Jetpack Compose** | ✅ **Vencedora Absoluta** | Linguagem oficial do Android Runtime (ART). Gera bytecode dex otimizado com **R8**, APK minúsculo (~2 a 4 MB), renderização direta via GPU a 120 FPS, e controle total de permissões do sistema (`MANAGE_EXTERNAL_STORAGE`). |
-
-### ☕ Sobre o OpenJDK / Java no Android
-No Android, o compilador (D8 / R8) traduz o bytecode Java em instruções **DEX** executadas diretamente pelo ART do smartphone. O projeto utiliza Gradle moderno configurado com compatibilidade para o Java 17/21 e pode ser construído perfeitamente no ambiente Java configurado no sistema.
-
----
-
 ## 🚀 Funcionalidades do Nexo
 
 1. **Acesso Total ao Armazenamento (`MANAGE_EXTERNAL_STORAGE`)**:
